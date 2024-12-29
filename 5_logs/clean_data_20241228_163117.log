@@ -1,0 +1,4 @@
+2024-12-28 16:31:17,651 - INFO - Starting data cleaning...
+2024-12-28 16:31:17,651 - INFO - Reading data from C:/Users/Matias/Desktop/bigquery_customers/2_data/Customers.csv
+2024-12-28 16:31:17,707 - INFO - Dropping columns: ['Work Experience', 'Family Size']
+2024-12-28 16:31:17,771 - INFO - Cleaned data saved to C:/Users/Matias/Desktop/bigquery_customers/2_data/cleaned_customers.csv

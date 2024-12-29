@@ -1,0 +1,17 @@
+]633;E;{     echo "Executing command: curl -L -o ../2_data/customers-dataset.zip"\x3b     curl -L -o ../2_data/customers-dataset.zip https://www.kaggle.com/api/v1/datasets/download/datascientistanna/customers-dataset\x3b     echo "Executing command: cd ../2_data && unzip -o customers-dataset.zip && rm customers-dataset.zip"\x3b     cd ../2_data && unzip -o customers-dataset.zip && rm customers-dataset.zip\x3b     echo "Executing command: pwd"\x3b     pwd\x3b     echo "Executing command: ls -1"\x3b     ls -1\x3b     echo "Executing command: mv Customers.csv ~/Desktop/bigquery_customers/2_data/"\x3b     mv Customers.csv ~/Desktop/bigquery_customers/2_data/\x3b     echo "All operations completed successfully."\x3b } >> ~/Desktop/bigquery_customers/5_logs/manual_log.log 2>&1;6f674d48-e6a1-4362-8ff4-d08b084f4c8e]633;CExecuting command: curl -L -o ../2_data/customers-dataset.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+Warning: Failed to open the file ../2_data/customers-dataset.zip: No such file 
+Warning: or directory
+  0 23772    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (23) client returned ERROR on write of 348 bytes
+Executing command: cd ../2_data && unzip -o customers-dataset.zip && rm customers-dataset.zip
+bash: cd: ../2_data: No such file or directory
+Executing command: pwd
+/c/Users/Matias/Desktop/2_data
+Executing command: ls -1
+ls: cannot open directory '.': No such file or directory
+Executing command: mv Customers.csv ~/Desktop/bigquery_customers/2_data/
+mv: cannot stat 'Customers.csv': No such file or directory
+All operations completed successfully.
